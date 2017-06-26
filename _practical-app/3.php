@@ -24,7 +24,39 @@
 	Step 3 : Make a switch Statement that test againts one condition with 5 cases
 
  */
+if (3<4) {
+	echo "I love php";
+} elseif (3>4) {
+	echo "I hate PHP";
+}else{
+	echo "What ever";
+}
 
+for ($i=0; $i <10 ; $i++) { 
+	echo $i . "<br>";
+}
+$number = 23;
+switch ($number) {
+	case 21:
+		echo "the number is 21";
+		break;
+	case 22:
+		echo "the number is 22";
+		break;
+	case 23:
+		echo "the number is 23";
+		break;
+	case 24:
+		echo "the number is 24";
+		break;
+	case 25:
+		echo "the number is 25";
+		break;
+	
+	default:
+		echo "what ever";
+		break;
+}
 	
 ?>
 
