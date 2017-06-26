@@ -6,8 +6,12 @@
 </head>
 <body>
 
+<?php
+$title = "Edwin Diaz Official Site";
+?>
 
-<h1>Hello Student</h1>
+<h1> <?php echo $title; ?></h1>
+
 	
 </body>
 </html>
