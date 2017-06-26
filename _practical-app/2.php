@@ -27,8 +27,22 @@
 
 		 
 			 */
+		  $number1 = 10;
+		  $number2 = 20;
+		  echo $number1 + $number2;
+		  echo "<br>";
 
-		
+
+		  $array1 = [$number1, $number2];
+		  $array2 = ["number1" => $number1, "number2" => $number2];
+		  $array3 = array('number1' => $number1, 'number2' => $number2);
+
+		  print_r($array1);
+		  echo "<br>";
+		  print_r($array2);
+		  echo "<br>";
+		  print_r($array3);
+		  echo "<br>";
 
 
 		?>
