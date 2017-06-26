@@ -6,18 +6,14 @@
 </head>
 <body>
 
-
 <?php 
-/* This function below displays text
+$name = 'Edwin';
+$number = 100;
+$Number_List = 100; 
 
-this is the second line */
+echo $name." ".$number;	
 
-// One line comment
-
-	echo "Hello Students";
-
-
- ?>
+?>
 	
 </body>
 </html>
